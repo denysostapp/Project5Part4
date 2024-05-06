@@ -8,23 +8,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.stage.Stage;
-
-import java.io.IOException;
-
-import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-
 public class BinarySearchVisualizationApp extends Application {
 
     @Override
@@ -57,7 +40,7 @@ public class BinarySearchVisualizationApp extends Application {
         );
 
         // Scene
-        Scene scene = new Scene(root, 300, 200);
+        Scene scene = new Scene(root, 1200, 800);
 
         // Stage
         primaryStage.setScene(scene);
